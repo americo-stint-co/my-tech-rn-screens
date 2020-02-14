@@ -23,6 +23,9 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { enableScreens } from 'react-native-screens';
+
+enableScreens();
 
 const App: () => React$Node = () => {
   return (
